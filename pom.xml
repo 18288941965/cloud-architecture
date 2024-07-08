@@ -19,10 +19,17 @@
         <module>cloud-common</module>
     </modules>
 
+    <!--第一：在这里定义版本-->
     <properties>
         <java.version>17</java.version>
     </properties>
 
+    <!--第二：子模块的依赖包约束在这里定义-->
+    <dependencyManagement>
+
+    </dependencyManagement>
+
+    <!--第三：parent的依赖直接定义在这里-->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
